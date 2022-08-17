@@ -10,6 +10,6 @@ type ArtesiaConfig struct {
 	handler http.Handler
 }
 
-func New() func(h http.Handler) http.Handler {
-	return usecases.New(http.Handler)
+func NewHandler() func(http.Handler) http.Handler {
+	return usecases.NewHandler()
 }

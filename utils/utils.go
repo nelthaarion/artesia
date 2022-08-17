@@ -1,4 +1,4 @@
-package artesiautils
+package utils
 
 import (
 	"log"
